@@ -19,7 +19,7 @@
 
 ## Layout
 
-![](app.png)
+![](Tasks.gif)
 
 ---
 
