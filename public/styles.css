@@ -1,0 +1,88 @@
+html, body{
+    height: 100%;
+    background-color: #313131;
+    text-align: center;
+    margin: 0;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+#root{
+    position: relative;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+h1{
+    margin: 8px 0;
+    color: #f5f5f5;
+}
+
+form{
+   margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+input, textarea{
+    padding: 8px;
+}
+
+form button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px;
+
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+li{
+    background-color: rgb(208, 222, 242);
+    border: 2px solid rgb(169, 200, 244);
+    border-radius: 5px 2px;
+    margin: 8px 0;
+}
+
+li div{
+    position: relative;
+}
+
+li h2{
+    background-color: rgb(169, 200, 244);
+    margin: 0;
+    padding: 4px;
+}
+
+li div button{
+    position: absolute;
+    top: 0;
+    right: 1px;
+    background-color: transparent;
+    border: 0;
+    padding: 8px;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+li div button:hover,
+li div button:focus{
+    box-shadow: 0 0 2px black;
+}
+
+li p{
+    margin:8px
+}
